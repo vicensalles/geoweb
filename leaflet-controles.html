@@ -48,6 +48,8 @@
                         attribution: 'Stamen terrain',
                         opacity: 0.5
                     });
+
+                
                 var baseMaps = {
                     "Orto_esri": esri,
                     "Mapa_osm": osm
@@ -55,6 +57,8 @@
                 var overlayMaps = {
                     "Terrain": terreno
                 };
+
+        
     
                 controlCapas = L.control.layers(baseMaps, overlayMaps,{collapsed:false});
                 controlCapas.addTo(map);
